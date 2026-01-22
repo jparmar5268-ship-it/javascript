@@ -37,3 +37,43 @@ num.forEach(calsq);
 num.forEach((num) => {
     console.log(num * num);
 });
+
+
+//Q-3
+
+
+let marks = [97, 64, 90, 96, 85, 99];
+
+let toper=marks.filter((val) => {
+    return val > 90;
+});
+
+console.log(toper);
+
+
+//Q-4
+
+let n = prompt("enter number:")
+
+let arr = [];
+
+for (let i = 1; i <= n; i++){
+    arr[i-1] = i;
+}
+
+console.log(arr);
+
+
+//Q-5
+
+let sum=arr.reduce((prev, curr) => {
+    return prev + curr;
+});
+
+console.log("sum = ",sum);
+
+let fact=arr.reduce((res,curr) => {
+    return res * curr;
+});
+
+console.log("Factorial = ",fact);
