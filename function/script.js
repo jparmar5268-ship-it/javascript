@@ -60,7 +60,7 @@ arr1.forEach((val,index,arr) => {
 
 //  -------------array Methods-----------
 
-//Map
+//Map Method
 
 let num = [67, 52, 39];
 
@@ -74,7 +74,7 @@ let calsq = (num) => {
     console.log(num * num);
 };
 
-//Filter
+//Filter Method
 
 let arr = [1, 2, 3, 4, 5, 6, 7];
 
@@ -85,7 +85,7 @@ let evenarr = arr.filter((val) => {
 console.log(evenarr);
 
 
-//reduce
+//reduce Method
 
 let arr1 = [1, 2, 3, 4];
 
