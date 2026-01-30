@@ -7,11 +7,13 @@ modebtn.addEventListener("click", () => {
         currmode = "dark";
         // document.querySelector("body").style.backgroundColor = "black";
         body.classList.add("dark");
+        body.classList.remove("light");
     }
     else {
         currmode = "light";
         //document.querySelector("body").style.backgroundColor = "white";
-         body.classList.add("light");
+        body.classList.add("light");
+        body.classList.remove("dark");
     }
 
     console.log(currmode);
