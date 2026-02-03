@@ -4,8 +4,12 @@
 }
 
 body{
-    background-color: #548687;
+    background-color: #65149b;
     text-align: center;
+}
+
+h1{
+    color: #ffffc7;
 }
 
 .container{
@@ -42,8 +46,8 @@ body{
     padding: 1rem;
     margin: 2rem;
     font-size: 1.25rem;
-    background-color: #191913;
-    color: #fff;
+    background-color: #ffffc7;
+    color: #65149b;
     border-radius: 1rem;
     border: none;
 }
@@ -52,8 +56,8 @@ body{
     padding: 1rem;
     margin: 2rem;
     font-size: 1.25rem;
-    background-color: #191913;
-    color: #fff;
+    background-color: #ffffc7;
+    color: #65149b;
     border-radius: 1rem;
     border: none;
 }
@@ -65,7 +69,12 @@ body{
 }
 
 .msg-container{
-    height: 30vmin;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:4rem;
 }
 
 .hide{
