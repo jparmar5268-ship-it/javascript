@@ -32,10 +32,12 @@ boxes.forEach((box) => {
         if (turnO) {//playerO
             box.innerText = "O";
             turnO = false;
+            box.style.color = "red";
         }
         else {//playerX
             box.innerText = "X";
             turnO = true;
+            box.style.color = "green";
         }
         box.disabled = true;
 
